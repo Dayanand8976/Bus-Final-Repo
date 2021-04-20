@@ -9,7 +9,7 @@ public class HelloRestController {
 	
 	@GetMapping("/hello")
 	public @ResponseBody String hello() {
-		return "Welcome to Spring Boot ";
+		return "Welcome to Spring Boot";
 	}
 	
 	
